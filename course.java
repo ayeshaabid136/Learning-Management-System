@@ -48,3 +48,18 @@ return super.clone();
 public String toString(){
     return "courseName=" +courseName+ ,"lncourseCode=" +courseCode;
 } 
+
+    //Main.java
+public static void main(String[] args) {
+
+    course C1 = new course("OOPS" , 101);
+course C2 = new course("DLD" , 102);
+course C3 new course("CPS" , 103);
+
+C1.setcourseName("OOPS");
+C1.getcourseName();
+C2.setcourseCode(101);
+C2.getcourseCode();
+ System.out.println(C1);
+}
+}
